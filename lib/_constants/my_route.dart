@@ -1,4 +1,4 @@
-import 'package:flutter_animations/screens/first_animation.dart';
+import 'package:flutter_animations/screens/example_1/example_one.dart';
 import 'package:flutter_animations/screens/main_screen.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 
