@@ -19,7 +19,7 @@ class _FirstAnimationState extends State<FirstAnimation>
 
     _controller = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 4),
+      duration: const Duration(seconds: 2),
     );
     _animation = Tween<double>(
       begin: 0.0,
@@ -46,8 +46,8 @@ class _FirstAnimationState extends State<FirstAnimation>
             return Transform(
               alignment: Alignment.center,
               transform: Matrix4.identity()
-                ..rotateX(
-                  _controller.value,
+                ..rotateZ(
+                  _animation.value,
                 ),
               child: Container(
                 width: 100,
